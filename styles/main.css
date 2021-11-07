@@ -1,0 +1,33 @@
+#flip_the_coin_title {
+    text-align: center;
+    font-size: 4vw;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1vw;
+    margin: 5%;
+}
+
+
+
+#btn_position{
+    text-align: center;
+}
+
+#flip_button {
+    color: white;
+    background-color: black;
+    width:200px;
+    height: 70px;
+}
+
+#words {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2%;
+    color:tomato;
+}
+
+#result {
+    text-align: center;
+    font-size: 2vw;
+ 
+}
