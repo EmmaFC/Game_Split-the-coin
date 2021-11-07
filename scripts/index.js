@@ -14,18 +14,16 @@ btn.onclick = function flipCoin (){
  
     document.getElementById("result").innerHTML = `<div id="words">Heads</div>`;
     document.getElementById("result").appendChild (headImage);
-    coinHeadProbability = Math.random ();
+    return coinHeadProbability = Math.random ();
   }
-  
-  else { 
-  
+  { 
     document.getElementById("result").innerHTML = `<div id="words">Tails</div>`;
     let tailImage = document.createElement ("img");
     tailImage.src="./assets/img/coin-tails.png";
     tailImage.style.width = "200px";
     tailImage.style.marginBottom = "40px";
     document.getElementById("result").appendChild (tailImage);
-    coinHeadProbability = Math.random ();
+    return coinHeadProbability = Math.random ();
   }
 
 }
