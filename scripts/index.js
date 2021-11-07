@@ -3,7 +3,7 @@ let coinHeadProbability = Math.random ();
 let headImage = document.createElement ("img");
     headImage.style.width = "200px";
     headImage.style.marginBottom = "40px";
-    headImage.src="/assets/img/coin-heads.png";
+    headImage.src="https://github.com/EmmaFC/Split-the-coin/blob/gh-pages/assets/img/coin-heads.png";
     document.getElementById("result").appendChild (headImage);
 
 let btn = document.getElementById ("flip_button");
