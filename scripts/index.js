@@ -7,11 +7,9 @@ let headImage = document.createElement ("img");
     document.getElementById("result").appendChild (headImage);
 
 let btn = document.getElementById ("flip_button");
-
 btn.onclick = function flipCoin (){
 
   if (coinHeadProbability <=0.5){
- 
     document.getElementById("result").innerHTML = `<div id="words">Heads</div>`;
     document.getElementById("result").appendChild (headImage);
     return coinHeadProbability = Math.random ();
